@@ -60,15 +60,13 @@ Versions prior to 0.1.10 won't have 'filename_charmap.txt' either.
 
 ## OPERATION
 
-![Tabs](ToyProject/media/tabs.png)
-
 On each file type's tab, select which errors to detect. 
 On the General tab, browse to the desired input folder, 
 then select the desired file search option. 
-
-
 You can refine the search using a file filter, a property filter, or both. 
-See the file selection section for details. 
+See the **File Selection** section below. 
+
+![Tabs](ToyProject/media/tabs.png)
 
 If any errors are found, a log file will be written to the input folder. 
 It will identify each error and the file in which it occurred. 
