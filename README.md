@@ -1,9 +1,3 @@
-# ToyProject
- Getting started with collaboration
-
-## Getting Started
-
-Clone the project and create a new branch.  Make some changes and commit them.  Create a pull request.  The owner will merge the pull request (if he can figure it out).
 
 ![Logo](ToyProject/media/logo.png)
 <p align=center>Robert McAnany 2022
@@ -18,31 +12,55 @@ Clone the project and create a new branch.  Make some changes and commit them.  
 
 ## DESCRIPTION
 
-Solid Edge Housekeeper is designed to help you find annoying little errors in your project.  It can identify failed features in 3D models, detached dimensions in drawings, missing parts in assemblies, and more.  It can also update certain individual file settings to match those in a template you specify.
+Solid Edge Housekeeper helps you find annoying little errors in your project.  It can identify failed features in 3D models, detached dimensions in drawings, missing parts in assemblies, and more.  It can also update certain individual file settings to match those in a template you specify.
 
 
 ## GETTING HELP
 
 Ask questions or suggest improvements on the [**Solid Edge Forum**](https://community.sw.siemens.com/s/topic/0TO4O000000MihiWAC/solid-edge)
 
+## SELECTION TOOLBAR
+
+![Toolbar](ToyProject/media/toolbar.png)
+
 <ol>
-  <li>First item</li>
-  <li>Second item</li>
-  <li>Third item
+  <li>Folders
     <ol>
-      <li>Indented item</li>
-      <li>Indented item</li>
+      <li>Folder</li>
+      <li>Folder and subfolders</li>
     </ol>
   </li>
-  <li>Fourth item</li>
+  <li>Top Level Assembly
+    <ol>
+      <li>Top level assembly</li>
+      <li>Folders to search</li>
+    </ol>
+  </li>
+  <li>Saved Lists
+    <ol>
+      <li>Import</li>
+      <li>Export</li>
+    </ol>
+  </li>
+  <li>File List Operations
+    <ol>
+      <li>Show files with errors</li>
+      <li>Remove file(s) from list</li>
+    </ol>
+  </li>
+  <li>Update File List</li>
 </ol> 
 
-1. First item
-2. Second item
-3. Third item
-   A. Indented item
-   B. Indented item
-4. Fourth item
+## FILTER TOOLBAR
+
+...
+
+# ToyProject
+ Getting started with collaboration
+
+## Getting Started
+
+Clone the project and create a new branch.  Make some changes and commit them.  Create a pull request.  The owner will merge the pull request (if he can figure it out).
 
 Markdown created with madskristensen's [**MarkDownEditor**](https://github.com/madskristensen/MarkdownEditor)
 
