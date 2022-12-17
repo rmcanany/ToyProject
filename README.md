@@ -25,7 +25,24 @@ Solid Edge Housekeeper is designed to help you find annoying little errors in yo
 
 Ask questions or suggest improvements on the [**Solid Edge Forum**](https://community.sw.siemens.com/s/topic/0TO4O000000MihiWAC/solid-edge)
 
+<ol>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item
+    <ol>
+      <li>Indented item</li>
+      <li>Indented item</li>
+    </ol>
+  </li>
+  <li>Fourth item</li>
+</ol> 
 
+1. First item
+2. Second item
+3. Third item
+   A. Indented item
+   B. Indented item
+4. Fourth item
 
 Markdown created with madskristensen's [**MarkDownEditor**](https://github.com/madskristensen/MarkdownEditor)
 
