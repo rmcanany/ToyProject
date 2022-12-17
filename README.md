@@ -39,7 +39,12 @@ the project and compile it yourself.
 
 The other option is to use the latest 
 [**Release**](https://github.com/rmcanany/SolidEdgeHousekeeper/releases). 
-It will be the top entry on the page.  There, click the 
+It will be the top entry on the page. 
+
+
+![Release Page](ToyProject/media/release_page.png)
+
+Click the 
 file SolidEdgeHousekeeper-vx.x.x.zip 
 (sometimes hidden under the Assets dropdown). 
 It should prompt you to save it. 
@@ -52,6 +57,75 @@ the settings files from the old version to the new.
 The files are 'defaults.txt', 'property_filters.txt', and 'filename_charmap.txt'. 
 If you haven't used Property Filter, 'property_filters.txt' won't be there. 
 Versions prior to 0.1.10 won't have 'filename_charmap.txt' either.
+
+## OPERATION
+
+![Tabs](ToyProject/media/tabs.png)
+
+On each file type's tab, select which errors to detect. 
+On the General tab, browse to the desired input folder, 
+then select the desired file search option. 
+
+
+You can refine the search using a file filter, a property filter, or both. 
+See the file selection section for details. 
+
+If any errors are found, a log file will be written to the input folder. 
+It will identify each error and the file in which it occurred. 
+When processing is complete, the log file is opened in Notepad for review.
+
+The first time you use the program, some site-specific information is needed. 
+This includes the location of your templates, material table, etc. 
+These are populated on the Configuration Tab.
+
+You can interrupt the program before it finishes.  While processing, 
+the Cancel button changes to a Stop button.  Just click that to halt 
+processing.  It may take several seconds to register the request.  It 
+doesn't hurt to click it a couple of times.
+
+## CAVEATS
+
+Since the program can process a large number of files in a short amount of time, 
+it can be very taxing on Solid Edge. 
+To maintain a clean environment, the program restarts Solid Edge periodically. 
+This is by design and does not necessarily indicate a problem.
+
+However, problems can arise. 
+Those cases will be reported in the log file with the message 'Error processing file'. 
+A stack trace will be included.  The stack trace looks scary, but may be useful for program debugging. 
+If four of these errors are detected in a run, the programs halts with the 
+Status Bar message 'Processing aborted'.
+
+Please note this is not a perfect program.  It is not guaranteed not to mess up your files.  Back up any files before using it.
+
+## KNOWN ISSUES
+
+Does not support managed files.  Cause: Unknown. 
+Possible workaround: Process the files in an unmanaged workspace.  
+
+Update 10/10/2021: Some users have reported success with BiDM managed files. 
+
+Update 1/25/2022: One user has reported success with Teamcenter 'cached' files. 
+
+
+Some tasks may not support versions of Solid Edge prior to SE2020. 
+Cause: Maybe an API call not available in previous versions. 
+Possible workaround: Use SE2020 or later. 
+
+
+May not support multiple installed Solid Edge versions on the same machine. 
+Cause: Unknown. 
+Possible workaround: Use the version that was 'silently' installed. 
+
+Does not support all printer settings, e.g., duplexing, collating, etc. 
+Cause: Not exposed in the DraftPrintUtility() API. 
+Possible workaround: Create a new Windows printer with the desired settings. 
+Refer to the TESTS AND ACTIONS topic below for more details. 
+
+Pathfinder is sometimes blank when running the 'Interactive Edit' task. 
+Cause: Unknown. 
+Possible workaround: Refresh the screen by minimizing and maximizing the Solid Edge window. 
+
 
 
 ## SELECTION TOOLBAR
