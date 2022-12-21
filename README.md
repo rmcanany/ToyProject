@@ -5,14 +5,18 @@
 @farfilli (aka @Fiorini), @daysanduski, **@YOU!**
 
 # ToyProject
- Getting started with collaboration
+ Getting started with collaboration.
 
 ## Getting Set Up
 
 GitHub has compiled a 
-[**Quick Start Guide**](https://docs.github.com/en/get-started/quickstart)
+[**Quick Start Guide**](https://docs.github.com/en/get-started/quickstart). 
+That's probably the best place to start.  I worked through all the sections. 
+It took a couple of days.
 
-Note, the second section is about setting up Git. FYI, I use GitHub Desktop.
+Note, the second section is about setting up Git. FYI, I use 
+[**GitHub Desktop**](https://desktop.github.com/).  I followed this guide to 
+[**Install and Configure**](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop) it.
 
 ## Collaborating
 
@@ -30,7 +34,8 @@ anything that can't be fixed.  That's the great thing about Git and GitHub.
         Create a pull request.
     </li>
     <li>
-        I will merge the pull request (if I can figure it out).
+        I will merge your pull request.  Not only that, I'll even add your name to 
+the Contributors list!
     </li>
 </ol>
 
