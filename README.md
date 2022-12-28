@@ -2,7 +2,7 @@
 <p align=center>Robert McAnany 2022
 
 **Contributors**:
-@farfilli (aka @Fiorini), @daysanduski, **@YOU!**
+@farfilli (aka @Fiorini), @mmtrebuchet, @daysanduski, **@YOU!**
 
 # ToyProject
  Getting started with collaboration.
