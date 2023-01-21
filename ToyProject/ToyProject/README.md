@@ -28,7 +28,7 @@ anything that can't be fixed.  That's the great thing about Git and GitHub.
         Clone the project and create a new branch.
     </li>
     <li>
-        Make some changes and commit them.
+        Make some changes in Module1.vb and commit them.
     </li>
     <li>
         Merge your new branch into main.  Delete the old branch.
