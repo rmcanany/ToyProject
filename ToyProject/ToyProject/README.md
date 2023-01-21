@@ -17,6 +17,9 @@ It took a couple of days.
 Note, the second section is about setting up Git. FYI, I use 
 [**GitHub Desktop**](https://desktop.github.com/).  I followed this guide to 
 [**Install and Configure**](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop) it.
+To get up to speed on Git, which is very helpful, take a look at this
+[**Book**](https://git-scm.com/book/en/v2/).
+It's comprehensive and free!
 
 ## Collaborating
 
