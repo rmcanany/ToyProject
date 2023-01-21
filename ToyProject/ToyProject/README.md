@@ -17,9 +17,6 @@ It took a couple of days.
 Note, the second section is about setting up Git. FYI, I use 
 [**GitHub Desktop**](https://desktop.github.com/).  I followed this guide to 
 [**Install and Configure**](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop) it.
-To get up to speed on Git, which is very helpful, take a look at this
-[**Book**](https://git-scm.com/book/en/v2/).
-It's comprehensive and free!
 
 ## Collaborating
 
@@ -45,6 +42,12 @@ the Contributors list!
     </li>
 </ol>
 
+## Learn more about Git
+
+Once you get the basics of collaborating, 
+you might want to get a better understanding of Git.
+For that, take a look at this free online
+[**Book**](https://git-scm.com/book/en/v2/).
 
 Markdown created with the help of madskristensen's 
 [**MarkDownEditor**](https://github.com/madskristensen/MarkdownEditor)
