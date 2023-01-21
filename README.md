@@ -31,6 +31,9 @@ anything that can't be fixed.  That's the great thing about Git and GitHub.
         Make some changes and commit them.
     </li>
     <li>
+        Merge your new branch into `master`.  Delete the old branch.
+    </li>
+    <li>
         Create a pull request.
     </li>
     <li>
