@@ -1,4 +1,4 @@
-# ![Logo](media/logo.png)
+# ![Logo](ToyProject/ToyProject/media/logo.png)
 <p align=center>Robert McAnany 2022
 
 **Contributors**:
