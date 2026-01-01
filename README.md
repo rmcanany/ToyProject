@@ -1,5 +1,5 @@
 # ![Logo](ToyProject/ToyProject/media/logo.png)
-<p align=center>Robert McAnany 2022
+<p align=center>Robert McAnany 2026
 
 **Contributors**:
 @farfilli (aka @Fiorini), @mmtrebuchet, @daysanduski, **@YOU!**
@@ -29,7 +29,7 @@ anything that can't be fixed.  That's the great thing about Git and GitHub.
     </li>
     <li>
         Clone the repo to your local machine.  You can do this in GitHub Desktop.
-Click the Current repository dropdown, click Add, then click Clone repository...
+Click the Current repository dropdown, click Add, then click `Clone repository...`
     </li>
     <li>
         Still in GitHub Desktop, create a new branch.
@@ -38,23 +38,25 @@ Click the Current repository dropdown, click Add, then click Clone repository...
         In Visual Studio, make some changes in Module1.vb and test.
     </li>
     <li>
-        Back in GitHub Desktop, commit the changes.  Then switch back to the Master branch.  On the Menu, click Branch, then merge into current brach.  It will prompt for which branch to merge.  Select the one you previously created.
+        Back in GitHub Desktop, commit the changes.
+    </li>
+    <li>
+        Switch back to the Master branch.  Then, on the Menu, click Branch and click `Merge into current branch...`.  At the prompt, select the one you just created.
     </li>
     <li>
         Still in GitHub Desktop, push the changes back up to your GitHub fork.
     </li>
     <li>
-        On GitHub, create a pull request.
+        Now on the GitHub website, create a pull request.
     </li>
     <li>
-        I will merge your pull request.  Not only that, I'll even add your name to 
-the Contributors list!
+        I will get notified and merge your pull request.  Not only that, I'll even add your name to the Contributors list!
     </li>
     <li>
         Once you're notified of the merge, log back on GitHub and click Sync fork.
     </li>
     <li>
-        One more thing about that Sync step.  When you want to make a change to the program, be sure to Sync your Fork with the main Repo right before you do so, then Pull down the updated Fork.  Otherwise you will possibly be making changes to an old copy, which can cause more work for you and me.
+        One more thing about that Sync step.  When you want to make a change, be sure to Sync right before you do so, then Pull down the updated Fork.  Otherwise you will possibly be making changes to an old copy, which can cause more work for you and for me.
     </li>
 </ol>
 
