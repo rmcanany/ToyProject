@@ -53,6 +53,9 @@ the Contributors list!
     <li>
         Once you're notified of the merge, log back on GitHub and click Sync fork.
     </li>
+    <li>
+        One more thing about that Sync step.  When you want to make a change to the program, be sure to Sync your Fork with the main Repo.  Otherwise you will be making changes to an old copy, which can cause more work for you and me.
+    </li>
 </ol>
 
 ## Learn more about Git
