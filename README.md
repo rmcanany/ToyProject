@@ -38,11 +38,10 @@ Click the Current repository dropdown, click Add, then click Clone repository...
         In Visual Studio, make some changes in Module1.vb and test.
     </li>
     <li>
-        Back in GitHub Desktop, commit the changes.  Then switch back to the Master branch and merge.
+        Back in GitHub Desktop, commit the changes.  Then switch back to the Master branch.  On the Menu, click Branch, then merge into current brach.  It will prompt for which branch to merge.  Select the one you previously created.
     </li>
     <li>
-        Back in GitHub Desktop, commit the changes.  Then push the changes back up to your 
-GitHub fork.
+        Still in GitHub Desktop, push the changes back up to your GitHub fork.
     </li>
     <li>
         On GitHub, create a pull request.
